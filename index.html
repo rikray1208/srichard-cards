@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="images/cat.ico"/>
+	<title>Srichard cards</title>
+</head>
+<body>
+	<div class="container">
+			<h1 class="header">Srichard cards</h1>
+
+			<section class="memory-game">
+				<h1 class="memory-game__lose-text">Ты проиграл!</h1>
+
+				<div class="memory-card" data-card="1">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/1.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="1">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/1.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="2">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/2.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="2">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/2.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="3">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/3.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="3">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/3.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="4">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/4.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="4">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/4.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="5">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/5.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="5">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/5.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="6">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/6.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card" data-card="6">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/6.svg" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card --memory-card__hide" data-card="7">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/danlep1.png" alt="" class="memory-card__back-face">
+				</div>
+				<div class="memory-card --memory-card__hide" data-card="7">
+					<img src="images/question.svg" alt="" class="memory-card__front-face">
+					<img src="images/danlep1.png" alt="" class="memory-card__back-face">
+				</div>
+
+			</section>
+
+			<aside class="mods">
+				<h3 class="mods__header">Mods:</h3>
+				<button class="mods__btn --btn__hp">HP</button>
+				<button class="mods__btn --btn__danlepe">danlepe</button>
+				<button class="mods__btn --btn__default">default</button>
+				<button class="mods__btn-reload"> 
+					<img src="images/reload.svg" alt="" class="btn-reload__img">
+				</button>
+			</aside>
+
+			<section class="hp">
+			<img src="images/hp.png" alt="" class="hp__icon">
+			<img src="images/hp.png" alt="" class="hp__icon">
+			<img src="images/hp.png" alt="" class="hp__icon">
+			<img src="images/hp.png" alt="" class="hp__icon">
+			<img src="images/hp.png" alt="" class="hp__icon">
+			</section>
+
+			<!-- audio -->
+			<audio class="broken-heart"><source src="audio/death.mp3" type="audio/mp3"></audio>
+			<audio class="danlep-audio"><source src="audio/danlep.mp3" type="audio/mp3"></audio>
+	</div>
+
+	<!-- JS -->
+	<script type="module" src="app.js"></script>
+</body>
+</html> 
